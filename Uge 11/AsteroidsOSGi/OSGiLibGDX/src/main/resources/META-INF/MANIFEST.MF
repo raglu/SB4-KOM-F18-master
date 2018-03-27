@@ -1,0 +1,24 @@
+Bundle-NativeCode: libgdx-box2d.dylib;
+ libgdx-box2d64.dylib;
+ libgdx-freetype.dylib;
+ libgdx-freetype64.dylib;
+ openal.dylib;
+ libgdx.dylib;
+ libgdx64.dylib;
+ osname=MacOSX;
+ processor=x86-64, 
+ OpenAL32.dll;
+ OpenAL64.dll;
+ gdx-box2d.dll;
+ gdx-box2d64.dll;
+ gdx-freetype.dll;
+ gdx-freetype64.dll;
+ gdx.dll;
+ gdx64.dll;
+ lwjgl.dll;
+ lwjgl64.dll;
+ osname=Windows 10;
+ processor=x86;
+ processor=x86-64
+
+

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module codename="com.diffplug.osgi.extension.sun.misc">
+    <module_version install_time="1522090405414" last="true" origin="installer" specification_version="0.0.0">
+        <file crc="3661432228" name="config/Modules/com-diffplug-osgi-extension-sun-misc.xml"/>
+        <file crc="3251460807" name="modules/com-diffplug-osgi-extension-sun-misc.jar"/>
+    </module_version>
+</module>
