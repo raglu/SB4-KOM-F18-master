@@ -1,5 +1,5 @@
 -------------------------------------------------------------------------------
->Log Session: Tuesday, March 27, 2018 1:52:15 AM CEST
+>Log Session: Thursday, April 5, 2018 12:12:28 AM CEST
 >System Info: 
   Product Version         = NetBeans Platform 8.2 (Build 201609300101)
   Operating System        = Windows 10 version 10.0 running on amd64
@@ -44,7 +44,8 @@ INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
 	dk.sdu.mmmi.cbse.OSGiAsteroidSplitter [1.0.0 1.0.0.SNAPSHOT]
 	dk.sdu.mmmi.cbse.OSGiCore [1.0.0 1.0.0.SNAPSHOT]
 	dk.sdu.mmmi.cbse.OSGiAsteroids [1.0.0 1.0.0.SNAPSHOT]
-	dk.sdu.mmmi.cbse.OSGiExtender [1.0 1.0-20180326 201803261852]
+	dk.sdu.mmmi.cbse.OSGiExtender [1.0 1.0-20180404 201804042145]
+	dk.sdu.mmmi.cbse.OSGiCommonPlayer [1.0.0 1.0.0.SNAPSHOT]
 	dk.sdu.mmmi.cbse.OSGiCommonEnemy [1.0.0 1.0.0.SNAPSHOT]
 	dk.sdu.mmmi.cbse.OSGiCommonBullet [1.0.0 1.0.0.SNAPSHOT]
 	dk.sdu.mmmi.cbse.OSGiCommonAsteroids [1.0.0 1.0.0.SNAPSHOT]

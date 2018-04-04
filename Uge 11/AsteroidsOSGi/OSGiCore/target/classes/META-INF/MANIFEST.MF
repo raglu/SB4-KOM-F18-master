@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1522090363514
+Bnd-LastModified: 1522878311995
 Build-Jdk: 1.8.0_101
 Built-By: Rasmus BG
 Bundle-ActivationPolicy: lazy

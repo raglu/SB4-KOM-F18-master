@@ -76,6 +76,8 @@
         <module>OSGiCommonBullet</module>
         <module>OSGiUpdater</module>
         <module>OSGiLaser</module>
+        <module>OSGiCommonPlayer</module>
+        <module>OSGiPlayer</module>
     </modules>
 
     <properties>

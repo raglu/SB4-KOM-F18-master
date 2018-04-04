@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="dk.sdu.mmmi.cbse.OSGiExtender">
-    <module_version install_time="1522090403839" last="true" origin="installer" specification_version="1.0">
+    <module_version install_time="1522879936686" last="true" origin="installer" specification_version="1.0">
         <file crc="705746026" name="config/Modules/dk-sdu-mmmi-cbse-OSGiExtender.xml"/>
-        <file crc="1295626739" name="modules/dk-sdu-mmmi-cbse-OSGiExtender.jar"/>
+        <file crc="688155901" name="modules/dk-sdu-mmmi-cbse-OSGiExtender.jar"/>
     </module_version>
 </module>
