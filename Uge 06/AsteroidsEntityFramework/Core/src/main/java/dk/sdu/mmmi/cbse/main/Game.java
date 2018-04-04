@@ -15,15 +15,16 @@ import dk.sdu.mmmi.cbse.common.data.World;
 import dk.sdu.mmmi.cbse.common.services.IEntityProcessingService;
 import dk.sdu.mmmi.cbse.common.services.IGamePluginService;
 import dk.sdu.mmmi.cbse.common.services.IPostEntityProcessingService;
-import dk.sdu.mmmi.cbse.enemy.EnemyProcessor;
 import dk.sdu.mmmi.cbse.enemy.EnemyPlugin;
+import dk.sdu.mmmi.cbse.enemy.EnemyProcessor;
 import dk.sdu.mmmi.cbse.managers.GameInputProcessor;
 import dk.sdu.mmmi.cbse.playersystem.PlayerPlugin;
 import dk.sdu.mmmi.cbse.playersystem.PlayerControlSystem;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Game implements ApplicationListener {
+public class Game
+        implements ApplicationListener {
 
     private static OrthographicCamera cam;
     private ShapeRenderer sr;
@@ -31,8 +32,8 @@ public class Game implements ApplicationListener {
     private final GameData gameData = new GameData();
     private List<IEntityProcessingService> entityProcessors = new ArrayList<>();
     private List<IGamePluginService> entityPlugins = new ArrayList<>();
-    private World world = new World();
     private IPostEntityProcessingService iPostEntityProcessingService;
+    private World world = new World();
 
     @Override
     public void create() {
@@ -50,17 +51,14 @@ public class Game implements ApplicationListener {
                 new GameInputProcessor(gameData)
         );
 
-        IGamePluginService playerPlugin = new PlayerPlugin();
-        IEntityProcessingService playerProcess = new PlayerControlSystem();
-        entityPlugins.add(playerPlugin);
-        entityProcessors.add(playerProcess);
+        entityPlugins.add(new PlayerPlugin());
+        entityProcessors.add(new PlayerControlSystem());
         entityPlugins.add(new EnemyPlugin());
         entityProcessors.add(new EnemyProcessor());
         entityPlugins.add(new AsteroidPlugin());
         entityProcessors.add(new AsteroidProcessor());
         entityProcessors.add(new BulletSystem());
         iPostEntityProcessingService = new CollisionDetectionSystem();
-        
         // Lookup all Game Plugins using ServiceLoader
         for (IGamePluginService iGamePlugin : entityPlugins) {
             iGamePlugin.start(gameData, world);

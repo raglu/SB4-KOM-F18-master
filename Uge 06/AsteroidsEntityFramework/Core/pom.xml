@@ -76,12 +76,12 @@
         </dependency>
         <dependency>
             <groupId>${project.groupId}</groupId>
-            <artifactId>Asteroid</artifactId>
+            <artifactId>Enemy</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>${project.groupId}</groupId>
-            <artifactId>Enemy</artifactId>
+            <artifactId>Asteroid</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>

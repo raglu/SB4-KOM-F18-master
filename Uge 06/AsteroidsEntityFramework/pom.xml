@@ -9,8 +9,8 @@
         <module>Core</module>
         <module>Common</module>
         <module>Player</module>
-        <module>Asteroid</module>
         <module>Enemy</module>
+        <module>Asteroid</module>
         <module>Bullet</module>
         <module>Collision</module>
     </modules>

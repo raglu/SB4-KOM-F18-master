@@ -40,10 +40,6 @@ public class PlayerControlSystem implements IEntityProcessingService {
                 bulletSystem.createBullet(player, gameData, world);
             }
 
-            if (lifePart.isIsHit()) {
-                lifePart.setLife(lifePart.getLife() - 1);
-            }
-
             if (lifePart.getLife() <= 0) {
                 world.removeEntity(player);
             }
