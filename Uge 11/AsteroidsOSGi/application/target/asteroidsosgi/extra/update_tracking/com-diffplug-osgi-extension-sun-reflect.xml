@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module codename="com.diffplug.osgi.extension.sun.reflect">
-    <module_version install_time="1522879937404" last="true" origin="installer" specification_version="0.0.0">
+    <module_version install_time="1522965725639" last="true" origin="installer" specification_version="0.0.0">
         <file crc="1396458875" name="config/Modules/com-diffplug-osgi-extension-sun-reflect.xml"/>
         <file crc="3718756885" name="modules/com-diffplug-osgi-extension-sun-reflect.jar"/>
     </module_version>

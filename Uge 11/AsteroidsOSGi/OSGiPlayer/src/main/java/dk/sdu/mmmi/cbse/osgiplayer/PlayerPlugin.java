@@ -10,6 +10,7 @@ import dk.sdu.mmmi.cbse.common.player.Player;
 import dk.sdu.mmmi.cbse.common.services.IGamePluginService;
 
 public class PlayerPlugin implements IGamePluginService {
+
     private String playerID;
 
     public PlayerPlugin() {
@@ -20,7 +21,7 @@ public class PlayerPlugin implements IGamePluginService {
         // Add entities to the world
         Entity player = createPlayerShip(gameData);
         playerID = world.addEntity(player);
-        
+
     }
 
     private Entity createPlayerShip(GameData gameData) {
@@ -30,14 +31,15 @@ public class PlayerPlugin implements IGamePluginService {
         float acceleration = 200;
         float maxSpeed = 300;
         float rotationSpeed = 5;
-        float x = gameData.getDisplayWidth() / 3;
-        float y = gameData.getDisplayHeight() / 3;
+        float x = gameData.getDisplayWidth() / 2;
+        float y = gameData.getDisplayHeight() / 2;
         float radians = 3.1415f / 2;
+
         playerShip.add(new LifePart(3));
         playerShip.setRadius(4);
         playerShip.add(new MovingPart(deacceleration, acceleration, maxSpeed, rotationSpeed));
         playerShip.add(new PositionPart(x, y, radians));
-        
+
         return playerShip;
     }
 
