@@ -1,5 +1,5 @@
 -------------------------------------------------------------------------------
->Log Session: Wednesday, April 4, 2018 10:38:32 PM CEST
+>Log Session: Sunday, April 8, 2018 4:34:41 PM CEST
 >System Info: 
   Product Version         = NetBeans Platform 8.1 (Build 201510222201)
   Operating System        = Windows 10 version 10.0 running on amd64
@@ -32,4 +32,4 @@ INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
 	org.netbeans.bootstrap/1 [2.74.1 201510222201]
 	org.netbeans.core.startup/1 [1.61.1.1 201510222201]
 	org.netbeans.api.annotations.common/1 [1.26.1 201510222201]
-	dk.sdu.mmmi.cbse.NBRuntimeExample.branding [1.0 1.0-20180404 201804042036]
+	dk.sdu.mmmi.cbse.NBRuntimeExample.branding [1.0 1.0-20180408 201804081431]

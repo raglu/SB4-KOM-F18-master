@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="dk.sdu.mmmi.cbse.CommonPlayer">
+    <module_version install_time="1523303034948" last="true" origin="installer" specification_version="1.0">
+        <file crc="3887944959" name="config/Modules/dk-sdu-mmmi-cbse-CommonPlayer.xml"/>
+        <file crc="1417215735" name="modules/dk-sdu-mmmi-cbse-CommonPlayer.jar"/>
+    </module_version>
+</module>

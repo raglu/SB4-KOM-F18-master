@@ -1,7 +1,5 @@
-
 package dk.sdu.mmmi.cbse.asteroid;
 
-import dk.sdu.mmmi.cbse.common.asteroids.Asteroid;
 import dk.sdu.mmmi.cbse.common.data.Entity;
 import dk.sdu.mmmi.cbse.common.data.GameData;
 import dk.sdu.mmmi.cbse.common.data.World;
@@ -36,24 +34,21 @@ public class AsteroidSystem implements IEntityProcessingService, IGamePluginServ
             PositionPart positionPart = asteroid.getPart(PositionPart.class);
             MovingPart movingPart = asteroid.getPart(MovingPart.class);
             LifePart lifePart = asteroid.getPart(LifePart.class);
-            
-            
+
             int numPoints = 12;
             float speed = (float) Math.random() * 10f + 20f;
             if (lifePart.getLife() == 1) {
                 numPoints = 8;
                 speed = (float) Math.random() * 30f + 70f;
-            } else if (lifePart.getLife()  == 2) {
+            } else if (lifePart.getLife() == 2) {
                 numPoints = 10;
                 speed = (float) Math.random() * 10f + 50f;
             }
             movingPart.setSpeed(speed);
             movingPart.setUp(true);
-           
-         
+
             movingPart.process(gameData, asteroid);
             positionPart.process(gameData, asteroid);
-            
 
             // Split event
             if (lifePart.isHit()) {
@@ -77,10 +72,10 @@ public class AsteroidSystem implements IEntityProcessingService, IGamePluginServ
         Entity asteroid = new Asteroid();
         PositionPart otherPos = e.getPart(PositionPart.class);
         LifePart otherLife = e.getPart(LifePart.class);
-        
-        float radians = otherPos.getRadians()-1;
+
+        float radians = otherPos.getRadians() - 1;
         asteroid.setRadius(e.getRadius());
-        int life = otherLife.getLife()-1;
+        int life = otherLife.getLife() - 1;
         int radius;
         float speed = 5;
         if (life == 1) {
@@ -89,7 +84,7 @@ public class AsteroidSystem implements IEntityProcessingService, IGamePluginServ
         } else if (life == 2) {
             radius = 10;
             speed = (float) Math.random() * 10f + 50f;
-        } else if(life <= 0) {
+        } else if (life <= 0) {
             //TODO: do not create plz
         }
         float by = (float) sin(radians) * e.getRadius() * asteroid.getRadius();
@@ -99,7 +94,7 @@ public class AsteroidSystem implements IEntityProcessingService, IGamePluginServ
         asteroid.add(new MovingPart(0, speed, speed, 0));
         asteroid.add(astPositionPart);
         asteroid.add(new LifePart(3));
-        
+
         return asteroid;
     }
 
@@ -107,12 +102,12 @@ public class AsteroidSystem implements IEntityProcessingService, IGamePluginServ
         Entity asteroid = new Asteroid();
         float radians = (float) Math.random() * 2 * 3.1415f;
         float speed = (float) Math.random() * 10f + 20f;
-        
+
         asteroid.setRadius(20);
         asteroid.add(new MovingPart(0, speed, speed, 0));
         asteroid.add(new PositionPart(30, 30, radians));
         asteroid.add(new LifePart(3));
-        
+
         return asteroid;
     }
 

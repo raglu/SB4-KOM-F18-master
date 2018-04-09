@@ -61,9 +61,11 @@
         <module>SilentUpdate</module>
         <module>Asteroid</module>
         <module>Common</module>
-        <module>CommonAsteroids</module>
-        <module>CommonEnemy</module>
-  </modules>
+        <module>Enemy</module>
+        <module>Player</module>
+        <module>Bullet</module>
+        <module>Collision</module>
+    </modules>
 
     <properties>
         <netbeans.version>RELEASE82</netbeans.version>
