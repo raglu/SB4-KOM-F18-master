@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="dk.sdu.mmmi.cbse.Enemy">
+    <module_version install_time="1523362352379" last="true" origin="installer" specification_version="1.0">
+        <file crc="4083148919" name="config/Modules/dk-sdu-mmmi-cbse-Enemy.xml"/>
+        <file crc="3161700639" name="modules/dk-sdu-mmmi-cbse-Enemy.jar"/>
+        <file crc="547572238" name="modules/ext/dk.sdu.mmmi.cbse.Enemy/dk-sdu-mmmi-cbse/Common.jar"/>
+        <file crc="3313461121" name="modules/ext/dk.sdu.mmmi.cbse.Enemy/org-apache-felix/org.apache.felix.scr.annotations.jar"/>
+        <file crc="2139556102" name="update_tracking/dk-sdu-mmmi-cbse-Enemy.xml"/>
+    </module_version>
+</module>

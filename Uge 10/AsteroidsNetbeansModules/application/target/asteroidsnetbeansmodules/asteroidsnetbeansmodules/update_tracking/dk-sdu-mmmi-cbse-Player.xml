@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="dk.sdu.mmmi.cbse.Player">
+    <module_version install_time="1523362352458" last="true" origin="installer" specification_version="1.0">
+        <file crc="477641821" name="config/Modules/dk-sdu-mmmi-cbse-Player.xml"/>
+        <file crc="2566618936" name="modules/dk-sdu-mmmi-cbse-Player.jar"/>
+        <file crc="547572238" name="modules/ext/dk.sdu.mmmi.cbse.Player/dk-sdu-mmmi-cbse/Common.jar"/>
+        <file crc="3313461121" name="modules/ext/dk.sdu.mmmi.cbse.Player/org-apache-felix/org.apache.felix.scr.annotations.jar"/>
+        <file crc="2896242418" name="update_tracking/dk-sdu-mmmi-cbse-Player.xml"/>
+    </module_version>
+</module>

@@ -30,6 +30,7 @@ public class PlayerControlSystem implements IEntityProcessingService {
             movingPart.setUp(gameData.getKeys().isDown(UP));
 
             if (gameData.getKeys().isPressed(SPACE)) {
+                System.out.println("fire");
                 Entity bullet = bulletService.createBullet(entity, gameData);
                 world.addEntity(bullet);
             }

@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1522965715748
-Build-Jdk: 1.8.0_101
-Built-By: Rasmus BG
+Bnd-LastModified: 1523361686363
+Build-Jdk: 1.8.0_161
+Built-By: rasmu
 Bundle-ActivationPolicy: lazy
 Bundle-ManifestVersion: 2
 Bundle-Name: OSGiCore
