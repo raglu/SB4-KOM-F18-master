@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="dk.sdu.mmmi.cbse.AsteroidsOSGi.branding">
-    <module_version install_time="1523361691063" last="true" origin="installer" specification_version="1.0">
+    <module_version install_time="1523440714511" last="true" origin="installer" specification_version="1.0">
         <file crc="4269102381" name="config/Modules/dk-sdu-mmmi-cbse-AsteroidsOSGi-branding.xml"/>
-        <file crc="3471589964" name="modules/dk-sdu-mmmi-cbse-AsteroidsOSGi-branding.jar"/>
+        <file crc="1100206720" name="modules/dk-sdu-mmmi-cbse-AsteroidsOSGi-branding.jar"/>
     </module_version>
 </module>

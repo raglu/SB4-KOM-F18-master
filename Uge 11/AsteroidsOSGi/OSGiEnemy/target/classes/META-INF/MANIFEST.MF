@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1523361681406
+Bnd-LastModified: 1523440699306
 Build-Jdk: 1.8.0_161
 Built-By: rasmu
 Bundle-ActivationPolicy: lazy
