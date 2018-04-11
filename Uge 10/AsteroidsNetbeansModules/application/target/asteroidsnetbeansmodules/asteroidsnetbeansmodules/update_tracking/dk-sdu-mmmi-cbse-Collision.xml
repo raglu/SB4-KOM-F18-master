@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="dk.sdu.mmmi.cbse.Collision">
-    <module_version install_time="1523362352406" last="true" origin="installer" specification_version="1.0">
+    <module_version install_time="1523439133700" last="true" origin="installer" specification_version="1.0">
         <file crc="922174143" name="config/Modules/dk-sdu-mmmi-cbse-Collision.xml"/>
-        <file crc="2648120666" name="modules/dk-sdu-mmmi-cbse-Collision.jar"/>
-        <file crc="547572238" name="modules/ext/dk.sdu.mmmi.cbse.Collision/dk-sdu-mmmi-cbse/Common.jar"/>
-        <file crc="3313461121" name="modules/ext/dk.sdu.mmmi.cbse.Collision/org-apache-felix/org.apache.felix.scr.annotations.jar"/>
-        <file crc="2463391801" name="update_tracking/dk-sdu-mmmi-cbse-Collision.xml"/>
+        <file crc="1111824520" name="modules/dk-sdu-mmmi-cbse-Collision.jar"/>
     </module_version>
 </module>

@@ -1,6 +1,6 @@
 package dk.sdu.mmmi.cbse.enemy;
 
-//import dk.sdu.mmmi.cbse.bullet.BulletSystem;
+import dk.sdu.mmmi.cbse.bullet.BulletSystem;
 import dk.sdu.mmmi.cbse.common.data.Entity;
 import dk.sdu.mmmi.cbse.common.data.GameData;
 import dk.sdu.mmmi.cbse.common.data.World;
@@ -23,7 +23,7 @@ public class EnemySystem implements IEntityProcessingService, IGamePluginService
 
     private Entity enemy;
 
-//    private BulletSystem bulletSystem = new BulletSystem();
+    private BulletSystem bulletSystem = new BulletSystem();
     @Override
     public void start(GameData gameData, World world) {
         enemy = createEnemyShip(gameData);
@@ -45,7 +45,7 @@ public class EnemySystem implements IEntityProcessingService, IGamePluginService
             movingPart.setUp(random > 0.7 && random < 0.9);
 
             if (random > 0.99) {
-//                bulletSystem.createBullet(enemy, gameData, world);
+                bulletSystem.createBullet(enemy, gameData, world);
             }
 
             if (lifePart.isHit()) {

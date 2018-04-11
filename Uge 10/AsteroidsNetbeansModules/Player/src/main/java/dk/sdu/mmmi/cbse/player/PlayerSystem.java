@@ -1,6 +1,6 @@
 package dk.sdu.mmmi.cbse.player;
 
-//import dk.sdu.mmmi.cbse.bullet.BulletSystem;
+import dk.sdu.mmmi.cbse.bullet.BulletSystem;
 import dk.sdu.mmmi.cbse.common.data.Entity;
 import dk.sdu.mmmi.cbse.common.data.GameData;
 import static dk.sdu.mmmi.cbse.common.data.GameKeys.LEFT;
@@ -27,7 +27,7 @@ public class PlayerSystem implements IEntityProcessingService, IGamePluginServic
 
     private Entity player;
 
-//    private BulletSystem bulletSystem = new BulletSystem();
+    private BulletSystem bulletSystem = new BulletSystem();
 
     @Override
     public void start(GameData gameData, World world) {
@@ -48,8 +48,7 @@ public class PlayerSystem implements IEntityProcessingService, IGamePluginServic
             movingPart.setUp(gameData.getKeys().isDown(UP));
 
             if (gameData.getKeys().isDown(SPACE)) {
-                System.out.println("fire");
-//                bulletSystem.createBullet(player, gameData, world);
+                bulletSystem.createBullet(player, gameData, world);
             }
             
             if (lifePart.isHit()) {

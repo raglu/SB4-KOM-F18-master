@@ -1,5 +1,5 @@
 -------------------------------------------------------------------------------
->Log Session: Tuesday, April 10, 2018 2:14:47 PM CEST
+>Log Session: Wednesday, April 11, 2018 11:36:21 AM CEST
 >System Info: 
   Product Version         = NetBeans Platform 8.2 (Build 201609300101)
   Operating System        = Windows 10 version 10.0 running on amd64
@@ -43,17 +43,20 @@ INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
 	org.netbeans.api.progress/1 [1.47.1 201609300101]
 	org.netbeans.api.progress.nb [1.47.1 201609300101]
 	org.netbeans.modules.autoupdate.services [1.52.1 201609300101]
-	dk.sdu.mmmi.cbse.SilentUpdate [1.0 1.0-20180410 201804101212]
-	dk.sdu.mmmi.cbse.Common [1.0 1.0-20180410 201804101204]
-	dk.sdu.mmmi.cbse.Bullet [1.0 1.0-20180410 201804101204]
-	dk.sdu.mmmi.cbse.Player [1.0 1.0-20180410 201804101204]
-	dk.sdu.mmmi.cbse.Enemy [1.0 1.0-20180410 201804101204]
-	dk.sdu.mmmi.cbse.Core [1.0 1.0-20180410 201804101204]
-	dk.sdu.mmmi.cbse.Collision [1.0 1.0-20180410 201804101204]
-	dk.sdu.mmmi.cbse.AsteroidsNetbeansModules.branding [1.0 1.0-20180410 201804101204]
-	dk.sdu.mmmi.cbse.Asteroid [1.0 1.0-20180410 201804101204]
+	dk.sdu.mmmi.cbse.SilentUpdate [1.0 1.0-20180411 201804110744]
+	dk.sdu.mmmi.cbse.Common [1.0 1.0-20180411 201804110929]
+	dk.sdu.mmmi.cbse.Bullet [1.0 1.0-20180411 201804110930]
+	dk.sdu.mmmi.cbse.Player [1.0 1.0-20180411 201804110930]
+	dk.sdu.mmmi.cbse.Enemy [1.0 1.0-20180411 201804110930]
+	dk.sdu.mmmi.cbse.Core [1.0 1.0-20180411 201804110930]
+	dk.sdu.mmmi.cbse.Collision [1.0 1.0-20180411 201804110930]
+	dk.sdu.mmmi.cbse.Asteroid [1.0 1.0-20180411 201804110716]
 INFO [org.netbeans.modules.autoupdate.silentupdate]: None for update/install/uninstall
 INFO [null]: Last record repeated again.
 INFO [null]: Last record repeated again.
 INFO [null]: Last record repeated 2 more times.
 INFO [null]: Last record repeated again.
+INFO [null]: Last record repeated 2 more times.
+INFO [null]: Last record repeated again.
+INFO [null]: Last record repeated again.
+INFO [null]: Last record repeated more than 10 times, further logs of this record are ignored until the log record changes.

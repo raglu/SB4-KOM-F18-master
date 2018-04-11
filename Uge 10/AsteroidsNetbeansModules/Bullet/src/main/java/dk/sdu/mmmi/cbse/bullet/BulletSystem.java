@@ -15,16 +15,17 @@ import dk.sdu.mmmi.cbse.common.data.entityparts.TimerPart;
 import dk.sdu.mmmi.cbse.common.services.IEntityProcessingService;
 import static java.lang.Math.cos;
 import static java.lang.Math.sin;
+import org.openide.util.lookup.ServiceProvider;
+import org.openide.util.lookup.ServiceProviders;
 
-/**
- *
- * @author Rasmus BG
- */
+@ServiceProviders(value = {
+    @ServiceProvider(service = IEntityProcessingService.class)
+})
+
 public class BulletSystem implements IEntityProcessingService {
 
     @Override
     public void process(GameData gameData, World world) {
-        System.out.println("processing");
 
         for (Entity bullet : world.getEntities(Bullet.class)) {
 
@@ -42,7 +43,6 @@ public class BulletSystem implements IEntityProcessingService {
             positionPart.process(gameData, bullet);
 
             updateShape(bullet);
-            System.out.println("bullet processed");
         }
     }
 
@@ -60,15 +60,15 @@ public class BulletSystem implements IEntityProcessingService {
         float by = (float) sin(radians) * shooter.getRadius() * bullet.getRadius();
 
         bullet.add(new PositionPart(bx + x, by + y, radians));
-        bullet.add(new TimerPart(0));
         bullet.add(new ProjectilePart(speed, radians));
+        bullet.add(new TimerPart(1));
+        bullet.add(new LifePart(1));
 
         bullet.setRadius(1);
         bullet.setShapeX(new float[2]);
         bullet.setShapeY(new float[2]);
 
         world.addEntity(bullet);
-        System.out.println("BulletCreated");
     }
 
     private void updateShape(Entity entity) {
@@ -87,6 +87,5 @@ public class BulletSystem implements IEntityProcessingService {
 
         entity.setShapeX(shapex);
         entity.setShapeY(shapey);
-        System.out.println("bullet shaped");
     }
 }
