@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1523440703558
+Bnd-LastModified: 1523539868867
 Build-Jdk: 1.8.0_161
 Built-By: rasmu
 Bundle-ClassPath: .,org.osgi.core-4.3.0.jar,gdx-1.9.6.jar,gdx-platform-1
@@ -20,7 +20,9 @@ Bundle-NativeCode: libgdx-box2d.dylib;libgdx-box2d64.dylib;libgdx-freety
  ib;osname=MacOSX;processor=x86-64, OpenAL32.dll;OpenAL64.dll;gdx-box2d.
  dll;gdx-box2d64.dll;gdx-freetype.dll;gdx-freetype64.dll;gdx.dll;gdx64.d
  ll;lwjgl.dll;lwjgl64.dll;osname=Windows 10;processor=x86;processor=x86-
- 64
+ 64;libgdx-box2d.so;libgdx-box2d64.so;libgdx-freetype.so;libgdx-freetype
+ 64.so;libgdx.so;libgdx64.so;liblwjgl.so;liblwjgl64.so;libopenal.so;libo
+ penal64.so;osname=linux;processor=amd64
 Bundle-SymbolicName: dk.sdu.mmmi.cbse.OSGiLibGDX
 Bundle-Version: 1.0.0.SNAPSHOT
 Created-By: Apache Maven Bundle Plugin

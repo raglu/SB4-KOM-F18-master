@@ -1,4 +1,0 @@
-Bundle-SymbolicName: OSGiAsteroids
-Bundle-ActivationPolicy: lazy
-Service-Component: META-INF/postentityprocessor.xml,
-

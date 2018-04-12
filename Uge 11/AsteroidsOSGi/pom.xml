@@ -75,9 +75,10 @@
         <module>OSGiCommonEnemy</module>
         <module>OSGiCommonBullet</module>
         <module>OSGiUpdater</module>
-        <module>OSGiLaser</module>
         <module>OSGiCommonPlayer</module>
         <module>OSGiPlayer</module>
+        <module>OSGiCollision</module>
+        <module>OSGiBullet</module>
     </modules>
 
     <properties>

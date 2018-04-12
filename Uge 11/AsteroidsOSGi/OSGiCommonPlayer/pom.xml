@@ -28,6 +28,7 @@
                 <configuration>
                     <instructions>
                         <Export-Package>dk.sdu.mmmi.cbse.common.player</Export-Package>
+                        <Private-Package>dk.sdu.mmmi.cbse.common.player.*</Private-Package>
                     </instructions>
                 </configuration>
             </plugin>

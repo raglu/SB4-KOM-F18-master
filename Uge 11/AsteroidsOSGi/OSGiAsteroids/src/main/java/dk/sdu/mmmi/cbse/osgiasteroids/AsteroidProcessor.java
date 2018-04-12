@@ -8,40 +8,26 @@ import dk.sdu.mmmi.cbse.common.data.World;
 import dk.sdu.mmmi.cbse.common.data.entityparts.LifePart;
 import dk.sdu.mmmi.cbse.common.data.entityparts.MovingPart;
 import dk.sdu.mmmi.cbse.common.data.entityparts.PositionPart;
+import dk.sdu.mmmi.cbse.common.data.entityparts.ProjectilePart;
 import dk.sdu.mmmi.cbse.common.services.IEntityProcessingService;
 
 public class AsteroidProcessor implements IEntityProcessingService {
 
-    
     private IAsteroidSplitter asteroidSplitter;
 
     @Override
     public void process(GameData gameData, World world) {
 
-       for (Entity asteroid : world.getEntities(Asteroid.class)) {
+        for (Entity asteroid : world.getEntities(Asteroid.class)) {
             PositionPart positionPart = asteroid.getPart(PositionPart.class);
-            MovingPart movingPart = asteroid.getPart(MovingPart.class);
+            ProjectilePart projectilePart = asteroid.getPart(ProjectilePart.class);
             LifePart lifePart = asteroid.getPart(LifePart.class);
-            
-            
-            int numPoints = 12;
-            float speed = (float) Math.random() * 10f + 20f;
-            if (lifePart.getLife() == 1) {
-                numPoints = 8;
-                speed = (float) Math.random() * 30f + 70f;
-            } else if (lifePart.getLife()  == 2) {
-                numPoints = 10;
-                speed = (float) Math.random() * 10f + 50f;
-            }
-            movingPart.setSpeed(speed);
-            movingPart.setUp(true);
-           
-         
-            movingPart.process(gameData, asteroid);
-            positionPart.process(gameData, asteroid);
-            
 
-            // Split event
+            int numPoints = 5;
+            
+            projectilePart.process(gameData, asteroid);
+            positionPart.process(gameData, asteroid);
+
             if (lifePart.isHit()) {
                 asteroidSplitter.createSplitAsteroid(asteroid, world);
             }
@@ -81,6 +67,5 @@ public class AsteroidProcessor implements IEntityProcessingService {
         entity.setShapeX(shapex);
         entity.setShapeY(shapey);
     }
-
 
 }
