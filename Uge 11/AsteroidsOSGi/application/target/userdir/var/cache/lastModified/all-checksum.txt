@@ -1,0 +1,12 @@
+platform=1523611754932
+cluster.asteroidsosgi=1523611754928
+cluster.bin=1523611754929
+cluster.etc=1523611754929
+cluster.extra=1523611754930
+cluster.platform=1523611754932
+user=1523611754932
+crc=7
+locale=en_GB
+branding=asteroidsosgi
+java.version=1.8.0_161
+java.vm.version=25.161-b12

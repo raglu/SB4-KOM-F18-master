@@ -1,9 +1,9 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1523539883815
+Bnd-LastModified: 1523611528937
 Build-Jdk: 1.8.0_161
 Built-By: rasmu
 Bundle-ActivationPolicy: lazy
-Bundle-Activator: dk.sdu.mmmi.cbse.laserweapon.Activator
+Bundle-Activator: dk.sdu.mmmi.cbse.bullet.Activator
 Bundle-ManifestVersion: 2
 Bundle-Name: OSGiBullet
 Bundle-SymbolicName: dk.sdu.mmmi.cbse.OSGiBullet
@@ -12,7 +12,6 @@ Created-By: Apache Maven Bundle Plugin
 Import-Package: dk.sdu.mmmi.cbse.common.bullet;version="[1.0,2)",dk.sdu.
  mmmi.cbse.common.data;version="[1.0,2)",dk.sdu.mmmi.cbse.common.data.en
  tityparts;version="[1.0,2)",dk.sdu.mmmi.cbse.common.services;version="[
- 1.0,2)",dk.sdu.mmmi.cbse.laserweapon,org.osgi.framework;version="[1.6,2
- )"
+ 1.0,2)",org.osgi.framework;version="[1.6,2)"
 Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
 Tool: Bnd-3.3.0.201609221906

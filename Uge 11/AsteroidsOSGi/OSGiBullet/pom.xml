@@ -45,7 +45,7 @@
                 <extensions>true</extensions>
                 <configuration>
                     <instructions>
-                        <Bundle-Activator>dk.sdu.mmmi.cbse.laserweapon.Activator</Bundle-Activator>
+                        <Bundle-Activator>dk.sdu.mmmi.cbse.bullet.Activator</Bundle-Activator>
                         <Export-Package/>
                     </instructions>
                 </configuration>
