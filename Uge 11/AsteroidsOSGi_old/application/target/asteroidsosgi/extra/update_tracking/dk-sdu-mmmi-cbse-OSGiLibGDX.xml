@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<module codename="dk.sdu.mmmi.cbse.OSGiLibGDX">
-    <module_version install_time="1523440711142" last="true" origin="installer" specification_version="1.0.0.SNAPSHOT">
-        <file crc="3943118477" name="config/Modules/dk-sdu-mmmi-cbse-OSGiLibGDX.xml"/>
-        <file crc="996221255" name="modules/dk-sdu-mmmi-cbse-OSGiLibGDX.jar"/>
-    </module_version>
-</module>

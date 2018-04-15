@@ -17,9 +17,9 @@ import org.openide.util.Lookup;
 public class ApplicationTest extends NbTestCase {
 
     // TODO: Put your own paths here...
-    private static final String ADD_ENEMY_UPDATES_FILE = "file:///C:/Users/rasmu/Documents/GitHub/SB4-KOM-F18-master/Uge%2010/AsteroidsNetbeansModules/application/src/test/resources/enemy/updates.xml";
-    private static final String REM_ENEMY_UPDATES_FILE = "file:///C:/Users/rasmu/Documents/GitHub/SB4-KOM-F18-master/Uge%2010/AsteroidsNetbeansModules/application/src/test/resources/remenemy/updates.xml";
-    private static final String UPDATES_FILE = "file:///C:/Users/rasmu/Documents/GitHub/SB4-KOM-F18-master/Uge%2010/AsteroidsNetbeansModules/netbeans_site/updates.xml";
+    private static final String ADD_ENEMY_UPDATES_FILE = "file:///C:/Users/Rasmus%20BG/Documents/GitHub/SB4-KOM-F18-master/Uge%2010/AsteroidsNetbeansModules/application/src/test/resources/enemy/updates.xml";
+    private static final String REM_ENEMY_UPDATES_FILE = "file:///C:/Users/Rasmus%20BG/Documents/GitHub/SB4-KOM-F18-master/Uge%2010/AsteroidsNetbeansModules/application/src/test/resources/remenemy/updates.xml";
+    private static final String UPDATES_FILE = "file:///C:/Users/Rasmus%20BG/Documents/GitHub/SB4-KOM-F18-master/Uge%2010/AsteroidsNetbeansModules/netbeans_site/updates.xml";
 
     public static Test suite() {
         return NbModuleSuite.createConfiguration(ApplicationTest.class).

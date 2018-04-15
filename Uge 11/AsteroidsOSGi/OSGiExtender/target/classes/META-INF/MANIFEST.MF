@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 OpenIDE-Module-Specification-Version: 1.0
-OpenIDE-Module-Implementation-Version: 1.0-20180413
-OpenIDE-Module-Build-Version: 201804130920
+OpenIDE-Module-Implementation-Version: 1.0-20180415
+OpenIDE-Module-Build-Version: 201804152025
 OpenIDE-Module: dk.sdu.mmmi.cbse.OSGiExtender
 OpenIDE-Module-Public-Packages: -
 OpenIDE-Module-Requires: org.openide.modules.ModuleFormat1

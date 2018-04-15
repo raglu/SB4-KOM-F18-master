@@ -31,6 +31,10 @@ public class EnemyProcessor implements IEntityProcessingService {
                 bulletSystem.createBullet(enemy, gameData, world);
             }
 
+            if (lifePart.isIsHit()) {
+                lifePart.setLife(lifePart.getLife() - 1);
+            }
+            
             if (lifePart.getLife() <= 0) {
                 world.removeEntity(enemy);
             }

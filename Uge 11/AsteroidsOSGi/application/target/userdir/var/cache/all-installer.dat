@@ -1,4 +1,4 @@
-#Fri Apr 13 11:29:35 CEST 2018
+#Sun Apr 15 22:48:07 CEST 2018
 dk.sdu.mmmi.cbse.OSGiCore.OpenIDE-Module-Deprecated=\u0000
 org.openide.util.ui.OpenIDE-Module-Install=\u0000
 org.eclipse.equinox.util.OpenIDE-Module-Install=\u0000
@@ -54,8 +54,8 @@ org.netbeans.libs.osgi.AutoUpdate-Show-In-Client=false
 org.netbeans.core.netigso.OpenIDE-Module-Description=\u0000
 dk.sdu.mmmi.cbse.OSGiExtender.AutoUpdate-Show-In-Client=\u0000
 org.netbeans.core.netigso.OpenIDE-Module-Layer=\u0000
-org.netbeans.core.startup.base.AutoUpdate-Show-In-Client=false
 org.openide.util.ui.AutoUpdate-Show-In-Client=false
+org.netbeans.core.startup.base.AutoUpdate-Show-In-Client=false
 org.openide.util.OpenIDE-Module-Description=\u0000
 dk.sdu.mmmi.cbse.OSGiLibGDX.AutoUpdate-Show-In-Client=\u0000
 dk.sdu.mmmi.cbse.OSGiLibGDX.OpenIDE-Module-Layer=\u0000
@@ -69,8 +69,8 @@ org.openide.util.lookup.OpenIDE-Module-Deprecated=\u0000
 org.netbeans.modules.netbinox.OpenIDE-Module-Install=\u0000
 org.netbeans.libs.osgi.OpenIDE-Module-Hide-Classpath-Packages=\u0000
 org.netbeans.libs.asm.OpenIDE-Module-Description=\u0000
-org.eclipse.osgi.services.AutoUpdate-Show-In-Client=\u0000
 org.openide.util.AutoUpdate-Show-In-Client=false
+org.eclipse.osgi.services.AutoUpdate-Show-In-Client=\u0000
 org.openide.filesystems.OpenIDE-Module-Install=\u0000
 dk.sdu.mmmi.cbse.OSGiCore.AutoUpdate-Show-In-Client=\u0000
 org.eclipse.osgi.services.OpenIDE-Module-Description=\u0000
@@ -83,8 +83,8 @@ org.netbeans.libs.asm.AutoUpdate-Show-In-Client=false
 com.diffplug.osgi.extension.sun.misc.OpenIDE-Module-Layer=\u0000
 org.openide.util.lookup.OpenIDE-Module-Layer=\u0000
 org.openide.util.lookup.OpenIDE-Module-Hide-Classpath-Packages=\u0000
-org.netbeans.core.startup.AutoUpdate-Show-In-Client=false
 org.openide.modules.AutoUpdate-Show-In-Client=false
+org.netbeans.core.startup.AutoUpdate-Show-In-Client=false
 org.netbeans.bootstrap.OpenIDE-Module-Deprecated=\u0000
 dk.sdu.mmmi.cbse.OSGiLibGDX.OpenIDE-Module-Description=\u0000
 com.diffplug.osgi.extension.sun.misc.OpenIDE-Module-Install=\u0000

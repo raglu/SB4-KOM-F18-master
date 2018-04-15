@@ -17,13 +17,16 @@ public class AsteroidPlugin implements IGamePluginService {
     }
 
     private Entity createAsteroid(GameData gameData) {
+
         Entity asteroid = new Asteroid();
+        float x = gameData.getDisplayWidth() / 4 * 3;
+        float y = gameData.getDisplayHeight()/ 2; 
         float radians = (float) Math.random() * 2 * 3.1415f;
         float speed = (float) Math.random() * 10f + 20f;
 
         asteroid.setRadius(20);
         asteroid.add(new ProjectilePart(speed, radians));
-        asteroid.add(new PositionPart(30, 30, radians));
+        asteroid.add(new PositionPart(x, y, radians));
         asteroid.add(new LifePart(3, 0));
 
         return asteroid;

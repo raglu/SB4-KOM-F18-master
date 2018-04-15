@@ -1,4 +1,4 @@
-#Fri Apr 13 11:29:35 CEST 2018
+#Sun Apr 15 22:48:06 CEST 2018
 org.netbeans.libs.osgi=
 dk.sdu.mmmi.cbse.OSGiCore=/maven/,/maven/dk.sdu.mmmi.cbse/OSGiCore/,dk.sdu.mmmi,dk.sdu,dk.sdu.mmmi.cbse,dk.sdu.mmmi.cbse.core,dk,dk.sdu.mmmi.cbse.common.data",/MANIFEST.MF,/,/maven/dk.sdu.mmmi.cbse/OSGiCore/pom.xml,/core.xml,/maven/dk.sdu.mmmi.cbse/,dk.sdu.mmmi.cbse.core.managers,dk.sdu.mmmi.cbse.common.services",/maven/dk.sdu.mmmi.cbse/OSGiCore/pom.properties
 org.openide.filesystems=

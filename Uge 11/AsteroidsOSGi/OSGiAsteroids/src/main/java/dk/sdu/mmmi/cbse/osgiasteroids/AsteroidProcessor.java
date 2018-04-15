@@ -6,7 +6,6 @@ import dk.sdu.mmmi.cbse.common.data.Entity;
 import dk.sdu.mmmi.cbse.common.data.GameData;
 import dk.sdu.mmmi.cbse.common.data.World;
 import dk.sdu.mmmi.cbse.common.data.entityparts.LifePart;
-import dk.sdu.mmmi.cbse.common.data.entityparts.MovingPart;
 import dk.sdu.mmmi.cbse.common.data.entityparts.PositionPart;
 import dk.sdu.mmmi.cbse.common.data.entityparts.ProjectilePart;
 import dk.sdu.mmmi.cbse.common.services.IEntityProcessingService;
@@ -22,8 +21,6 @@ public class AsteroidProcessor implements IEntityProcessingService {
             PositionPart positionPart = asteroid.getPart(PositionPart.class);
             ProjectilePart projectilePart = asteroid.getPart(ProjectilePart.class);
             LifePart lifePart = asteroid.getPart(LifePart.class);
-
-            int numPoints = 5;
             
             projectilePart.process(gameData, asteroid);
             positionPart.process(gameData, asteroid);
@@ -31,7 +28,7 @@ public class AsteroidProcessor implements IEntityProcessingService {
             if (lifePart.isHit()) {
                 asteroidSplitter.createSplitAsteroid(asteroid, world);
             }
-            setShape(asteroid, numPoints);
+            setShape(asteroid);
         }
 
     }
@@ -47,10 +44,10 @@ public class AsteroidProcessor implements IEntityProcessingService {
         this.asteroidSplitter = null;
     }
 
-    private void setShape(Entity entity, int numPoints) {
+    private void setShape(Entity entity) {
         PositionPart position = entity.getPart(PositionPart.class);
-        float[] shapex = new float[numPoints];
-        float[] shapey = new float[numPoints];
+        float[] shapex = new float[5];
+        float[] shapey = new float[5];
         float radians = position.getRadians();
         float x = position.getX();
         float y = position.getY();
@@ -58,10 +55,10 @@ public class AsteroidProcessor implements IEntityProcessingService {
 
         float angle = 0;
 
-        for (int i = 0; i < numPoints; i++) {
+        for (int i = 0; i < 5; i++) {
             shapex[i] = x + (float) Math.cos(angle + radians) * radius;
             shapey[i] = y + (float) Math.sin(angle + radians) * radius;
-            angle += 2 * 3.1415f / numPoints;
+            angle += 2 * 3.1415f / 5;
         }
 
         entity.setShapeX(shapex);

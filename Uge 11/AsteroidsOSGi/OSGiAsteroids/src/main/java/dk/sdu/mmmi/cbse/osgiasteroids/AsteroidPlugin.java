@@ -32,6 +32,8 @@ public class AsteroidPlugin implements IGamePluginService {
 
     private Entity createAsteroid(GameData gameData) {
         Entity asteroid = new Asteroid();
+        float x = gameData.getDisplayWidth() / 4 * 3;
+        float y = gameData.getDisplayHeight() / 2;
         float radians = (float) Math.random() * 2 * 3.1415f;
         float speed = (float) Math.random() * 10f + 20f;
 

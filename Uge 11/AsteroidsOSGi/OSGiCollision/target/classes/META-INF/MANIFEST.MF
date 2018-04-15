@@ -1,15 +1,15 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1523609948859
-Build-Jdk: 1.8.0_161
-Built-By: rasmu
+Bnd-LastModified: 1523823918864
+Build-Jdk: 1.8.0_101
+Built-By: Rasmus BG
 Bundle-ActivationPolicy: lazy
 Bundle-ManifestVersion: 2
 Bundle-Name: OSGiCollision
 Bundle-SymbolicName: dk.sdu.mmmi.cbse.OSGiCollision
 Bundle-Version: 1.0.0.SNAPSHOT
 Created-By: Apache Maven Bundle Plugin
-Export-Package: dk.sdu.mmmi.cbse.collision;uses:="dk.sdu.mmmi.cbse.commo
- n.data,dk.sdu.mmmi.cbse.common.services";version="1.0.0"
+Export-Package: dk.sdu.mmmi.cbse.collision;version="1.0.0";uses:="dk.sdu
+ .mmmi.cbse.common.data,dk.sdu.mmmi.cbse.common.services"
 Import-Package: dk.sdu.mmmi.cbse.common.data;version="[1.0,2)",dk.sdu.mm
  mi.cbse.common.data.entityparts;version="[1.0,2)",dk.sdu.mmmi.cbse.comm
  on.services;version="[1.0,2)"

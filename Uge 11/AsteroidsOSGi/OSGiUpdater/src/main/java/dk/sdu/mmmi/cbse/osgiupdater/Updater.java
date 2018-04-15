@@ -23,7 +23,7 @@ public class Updater implements BundleActivator {
     private final List<Bundle> failedBundles = new ArrayList<>();
 
     public void start(BundleContext bundleContext) throws Exception {
-        Path MODULES_DIRECTORY = Paths.get("C:\\Users\\rasmu\\Documents\\GitHub\\SB4-KOM-F18-master\\Uge 11\\AsteroidsOSGi\\updatefolder");
+        Path MODULES_DIRECTORY = Paths.get("C:\\Users\\Rasmus BG\\Documents\\GitHub\\SB4-KOM-F18-master\\Uge 11\\AsteroidsOSGi\\updatefolder");
         
         this.bundleContext = bundleContext;
 

@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1523611528937
-Build-Jdk: 1.8.0_161
-Built-By: rasmu
+Bnd-LastModified: 1523823920884
+Build-Jdk: 1.8.0_101
+Built-By: Rasmus BG
 Bundle-ActivationPolicy: lazy
 Bundle-Activator: dk.sdu.mmmi.cbse.bullet.Activator
 Bundle-ManifestVersion: 2
