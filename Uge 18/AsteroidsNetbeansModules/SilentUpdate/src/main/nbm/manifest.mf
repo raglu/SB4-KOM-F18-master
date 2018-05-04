@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+OpenIDE-Module-Localizing-Bundle: file:///C:/Users/Rasmus%20BG/Documents/GitHub/SB4-KOM-F18-master/Uge%2010/AsteroidsNetbeansModules/netbeans_site/updates.xml
+OpenIDE-Module-Install: org/netbeans/modules/autoupdate/silentupdate/UpdateActivator.class
+OpenIDE-Module-Layer: org/netbeans/modules/autoupdate/silentupdate/resources/layer.xml
+
+
+

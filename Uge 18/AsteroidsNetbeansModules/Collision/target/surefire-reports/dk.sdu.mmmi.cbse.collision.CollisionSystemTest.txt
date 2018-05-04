@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: dk.sdu.mmmi.cbse.collision.CollisionSystemTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.161 s <<< FAILURE! - in dk.sdu.mmmi.cbse.collision.CollisionSystemTest
+dk.sdu.mmmi.cbse.collision.CollisionSystemTest  Time elapsed: 0.159 s  <<< ERROR!
+java.lang.NullPointerException
+	at dk.sdu.mmmi.cbse.collision.CollisionSystemTest.setUpClass(CollisionSystemTest.java:37)
+
