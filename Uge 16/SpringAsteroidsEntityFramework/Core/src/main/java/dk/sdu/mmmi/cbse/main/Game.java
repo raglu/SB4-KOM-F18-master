@@ -53,6 +53,7 @@ public class Game implements ApplicationListener {
 
         ApplicationContext context = new ClassPathXmlApplicationContext("PlayerBeans.xml", "EnemyBeans.xml", "AsteroidBeans.xml",
                 "BulletBeans.xml", "CollisionBeans.xml");
+        
         PlayerPlugin playerPlugin = (PlayerPlugin) context.getBean("playerPlugin");
         PlayerControlSystem playerControlSystem = (PlayerControlSystem) context.getBean("playerControlSystem");
 

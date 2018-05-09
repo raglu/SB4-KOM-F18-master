@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><module codename="dk.sdu.mmmi.cbse.OSGiExtender">
-    <module_version install_time="1523823939865" last="true" origin="installer" specification_version="1.0">
-        <file crc="705746026" name="config/Modules/dk-sdu-mmmi-cbse-OSGiExtender.xml"/>
-        <file crc="2844244271" name="modules/dk-sdu-mmmi-cbse-OSGiExtender.jar"/>
-        <file crc="3070179113" name="update_tracking/dk-sdu-mmmi-cbse-OSGiExtender.xml"/>
-    </module_version>
-</module>
